@@ -1,0 +1,12 @@
+const os = require("os");
+console.log("OS Architecture: ", os.arch());
+console.log("OS Platform: ", os.platform());
+console.log("OS free memory", os.freemem());
+console.log("OS total memory", os.totalmem());
+console.log("OS home directory", os.homedir());
+console.log("OS hostname", os.hostname());
+console.log("OS type", os.type());
+console.log("Network Interfaces", os.networkInterfaces());
+console.log("OS release", os.release());
+console.log("OS hostname", os.hostname());
+console.log("OS endianness", os.endianness());
