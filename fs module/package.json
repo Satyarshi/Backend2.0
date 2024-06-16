@@ -1,0 +1,11 @@
+{
+  "name": "fs-module",
+  "version": "1.0.0",
+  "description": "file system in node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Satyarshi Shukla",
+  "license": "ISC"
+}
