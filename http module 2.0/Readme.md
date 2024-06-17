@@ -42,7 +42,7 @@ Response headers are sent by the server to the client along with an HTTP respons
 
 # RES.ON()
 
-- In Node.js, `res.on` is a method used to attach event listeners to an HTTP response object (`res`). This method is particularly useful when working with the low-level HTTP module and needing to handle various stages of the response lifecycle.
+In Node.js, `res.on` is a method used to attach event listeners to an HTTP response object (`res`). This method is particularly useful when working with the low-level HTTP module and needing to handle various stages of the response lifecycle.
 
 ### Available Events:
 

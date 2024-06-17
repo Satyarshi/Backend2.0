@@ -54,5 +54,9 @@ res.end(JSON.stringify({ error: "Server Error" }));
 -> jab bhi server se client pe data bhejengay to wo ya to binary form me hoga ya string me therefor json send karne ke liye json.Stringfy use kara taki string me convert ho jaye
 
 -----------------------------------------------------------------------------------------------------
+
+http.request is used when a server wants to fetch data from another server 
+
+-----------------------------------------------------------------------------------------------------
 read the docs in readme
 */
