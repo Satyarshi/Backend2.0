@@ -58,5 +58,9 @@ res.end(JSON.stringify({ error: "Server Error" }));
 http.request is used when a server wants to fetch data from another server 
 
 -----------------------------------------------------------------------------------------------------
+
+can inspect in network for the status code and the type of response send
+
+------------------------------------------------------------------------------------------------------
 read the docs in readme
 */
