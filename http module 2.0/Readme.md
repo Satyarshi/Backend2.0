@@ -70,3 +70,18 @@ In Node.js, `res.on` is a method used to attach event listeners to an HTTP respo
 
 - **Description**: Emitted when the underlying connection is closed.
 - **Usage**: Helpful for cleanup tasks or resource management after the connection is terminated.
+
+---
+
+# URL 
+
+**https://www.example.com/course/search?q=term&yo/#javascript**
+
+- https -> scheme/protocol
+- www -> sub-domain
+- example -> domain
+- com - top-level domain
+- www.example.com -> hostname
+- /course/search -> path
+- q=term&yo -> query string
+- #javascript -> slug/resource
