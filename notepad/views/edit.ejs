@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-zinc-800 text-white box-border">
+    <form class="m-10" action="/edit" method="post">
+      <input
+        class="w-1/2 p-2 rounded-lg bg-zinc-700"
+        type="text"
+        name="prevTitle"
+        value=<%= file %>
+      ></input>
+      <input
+        class="w-1/2 mt-5 p-2 rounded-lg bg-zinc-700"
+        type="text"
+        placeholder="new title"
+        name="newTitle"
+      />
+      <input
+        class="mt-2 bg-blue-500 p-2 rounded-md"
+        type="submit"
+        value="Update"
+      />
+    </form>
+  </body>
+</html>
